@@ -6,5 +6,5 @@ Core:
 - <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener">Typescript</a>
 
 Communication tool:
-- fetch
+- <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API" target="_blank" rel="noopener">fetch</a> 
 
