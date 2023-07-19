@@ -1,4 +1,4 @@
-# Tech stack
+# This projected was built with:
 
 Core:
 - <a href="https://react.dev/" target="_blank" rel="noopener">ReactJS</a>
