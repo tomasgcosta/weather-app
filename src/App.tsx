@@ -1,5 +1,7 @@
 import Forecast from './components/Forecast'
 import Search from './components/Search'
+
+
 import useForecast from './hooks/useForecast'
 const App = (): JSX.Element => {
   const {
@@ -12,15 +14,16 @@ const App = (): JSX.Element => {
   } = useForecast()
 
   return (
-    <main className="flex justify-center items-center bg-gradient-to-b from-0% from-[#284291]  to-[#B68976] to-100% h-full w-full">
-      {forecast ? <Forecast  data={forecast}/>:
-      <Search
+    <main className="flex flex-col justify-center items-center bg-gradient-to-b from-0% from-[#284291]  to-[#B68976] to-100% h-screen w-screen">
+         <Search
         searchText={searchText}
         suggestions={suggestions}
         onInputChange={onInputChange}
         onSuggestionSelect={onSuggestionSelect}
         onSubmit={onSubmit}
-      />}
+      />
+      {forecast ? <Forecast  data={forecast}/> : <h1 className='h-[50%]'>Please type in the location</h1>
+      }
     </main>
   )
 }

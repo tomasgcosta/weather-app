@@ -25,7 +25,7 @@ const Card = ({ icon, title, info }: Props): JSX.Element => {
   const Icon = icons[icon]
 
   return (
-    <article className="w-[140px] h-[130px] text-gray-200 bg-sky-200/20 backdrop-blur-lg rounded-[10px] drop-shadow-lg p-2 mb-5 flex flex-col justify-center">
+    <article className="w-[140px] h-[130px] text-gray-200 bg-[#BFD7EA]/30  backdrop-blur-lg rounded-[10px] drop-shadow-lg p-2 mb-5 flex flex-col justify-center">
       <div className="flex flex-col items-center my-4">
         <Icon /> 
         <h4 className="ml-1 mt-4 text-xs text-gray-300">{title}</h4>
