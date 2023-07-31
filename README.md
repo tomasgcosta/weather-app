@@ -7,8 +7,3 @@ Core:
 
 Communication tool:
 - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" target="_blank" rel="noopener">fetch</a>
-
-Database:
-
-- <a href="https://www.postgresql.org/" target="_blank" rel="noopener">PostgreSQL</a>
-
